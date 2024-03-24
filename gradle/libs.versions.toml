@@ -1,5 +1,5 @@
 [versions]
-androidGradlePlugin = "8.3.0"
+androidGradlePlugin = "8.3.1"
 kotlinAndroid = "1.8.0"
 
 activityKtx = "1.8.2"
