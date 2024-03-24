@@ -1,0 +1,20 @@
+[versions]
+androidGradlePlugin = "8.3.0"
+kotlinAndroid = "1.8.0"
+
+activityKtx = "1.8.2"
+coreKtx = "1.12.0"
+appCompat = "1.6.1"
+material = "1.11.0"
+
+
+[libraries]
+androidx-activity = { group = "androidx.activity", name = "activity-ktx", version.ref = "activityKtx" }
+androidx-core = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appCompat" }
+google-material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+
+[plugins]
+androidApplication = { id = "com.android.application", version.ref = "androidGradlePlugin" }
+androidLibrary = { id = "com.android.library", version.ref = "androidGradlePlugin" }
+kotlinAndroid = { id = "org.jetbrains.kotlin.android", version.ref = "kotlinAndroid" }
